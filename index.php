@@ -23,7 +23,7 @@ $time = date("H:i");
 copy("https://bcassetcdn.com/asset/logo/e7b2b2cb-aed9-4ca2-b4bc-61d4414d891b/logo?v=4&text=$time",'time.jpg');
 $MadelineProto->photos->uploadProfilePhoto(['file' => 'time.jpg']);
 //------------------------------------------------------------------------------
-$name = "اسم خود";
+$name = "-𝑨𝒎𝒊𝒓";
 $MadelineProto->account->updateProfile(['first_name' => "$name|$time|"]);
 //------------------------------------------------------------------------------
 $MadelineProto->account->updateProfile(['about' => "امروز $day_name 😄 $year_number/$month_number/$day_number 🕘 $time"]);
